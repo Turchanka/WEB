@@ -1,18 +1,18 @@
 /*entry*/
-.page-enter-active[data-v-85b713b0],.page-leave-active[data-v-85b713b0] {
+.page-enter-active,.page-leave-active {
     transition: all .4s
 }
 
-.page-enter-from[data-v-85b713b0],.page-leave-to[data-v-85b713b0] {
+.page-enter-from,.page-leave-to {
     filter: blur(1rem);
     opacity: 0
 }
 
-.layout-enter-active[data-v-85b713b0],.layout-leave-active[data-v-85b713b0] {
+.layout-enter-active,.layout-leave-active {
     transition: all .4s
 }
 
-.layout-enter-from[data-v-85b713b0],.layout-leave-to[data-v-85b713b0] {
+.layout-enter-from,.layout-leave-to {
     filter: grayscale(1)
 }
 
