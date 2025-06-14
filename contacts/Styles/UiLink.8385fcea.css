@@ -1,5 +1,4 @@
-/*UILink*/
-.ui-link[data-v-09bd5634] {
+.ui-link {
     align-items: center;
     background-color: #ffffff1a;
     border-radius: 5px;
@@ -10,12 +9,12 @@
     transition: background-color 80ms ease-out
 }
 
-.ui-link__icon[data-v-09bd5634] svg {
+.ui-link__icon svg {
     display: block;
     width: 30px
 }
 
-.ui-link__text[data-v-09bd5634] {
+.ui-link__text {
     color: #fff;
     font-family: GothamProMundfish;
     font-size: 18px;
@@ -24,7 +23,7 @@
     line-height: 130%
 }
 
-.ui-link[data-v-09bd5634]:hover {
+.ui-link:hover {
     background-color: #ffffff4f;
     transition: background-color 80ms ease-in
 }

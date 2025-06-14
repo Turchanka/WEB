@@ -1,5 +1,5 @@
 /*UiButtonSquare*/
-.ui-button-square[data-v-0f5c6a2f] {
+.ui-button-square {
     align-items: center;
     display: flex;
     height: 50px;
@@ -10,49 +10,49 @@
     width: 50px
 }
 
-.ui-button-square__icon[data-v-0f5c6a2f] {
+.ui-button-square__icon {
     height: 50%;
     transition: fill 80ms ease;
     width: 50%
 }
 
-.ui-button-square__icon[data-v-0f5c6a2f] svg {
+.ui-button-square__icon svg {
     fill: #fff;
     display: block;
     height: 100%;
     width: 100%
 }
 
-.ui-button-square_grey[data-v-0f5c6a2f],.ui-button-square_grey[data-v-0f5c6a2f]:active {
+.ui-button-square_grey,.ui-button-square_grey:active {
     background-color: #3c3c3c;
     border: 2px solid #3c3c3c
 }
 
 @media (min-width: 1024px) {
-    .ui-button-square_grey[data-v-0f5c6a2f]:active:hover,.ui-button-square_grey[data-v-0f5c6a2f]:hover {
+    .ui-button-square_grey:active:hover,.ui-button-square_grey:hover {
         opacity:.5
     }
 }
 
-.ui-button-square_grey-opacity[data-v-0f5c6a2f],.ui-button-square_grey-opacity[data-v-0f5c6a2f]:active {
+.ui-button-square_grey-opacity,.ui-button-square_grey-opacity:active {
     background-color: #ffffff4d;
     border-color: #ffffff4d
 }
 
 @media (min-width: 1024px) {
-    .ui-button-square_grey-opacity[data-v-0f5c6a2f]:active:hover,.ui-button-square_grey-opacity[data-v-0f5c6a2f]:hover {
+    .ui-button-square_grey-opacity:active:hover,.ui-button-square_grey-opacity:hover {
         background-color:#3c3c3c;
         border-color: #3c3c3c
     }
 }
 
-.ui-button-square_red[data-v-0f5c6a2f] {
+.ui-button-square_red {
     background-color: #841d1d;
     border: 2px solid #841d1d
 }
 
 @media (min-width: 1024px) {
-    .ui-button-square_red[data-v-0f5c6a2f]:hover {
+    .ui-button-square_red:hover {
         background-color:transparent
     }
 }
